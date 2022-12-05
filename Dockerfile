@@ -10,4 +10,4 @@ RUN npm install
 
 RUN cp .env.example .env
 
-CMD ["npm","start"]
+CMD ["node","index.js"]
